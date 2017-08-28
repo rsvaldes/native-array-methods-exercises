@@ -1,9 +1,12 @@
-function sum (array) {
-  // your code here
+function sum (arr) {
+  var result = arr.reduce(function(a, b) {
+    return a + b;
+  })
+  return result;
 };
 
 function productAll (array) {
-  // your code here
+  
 };
 
 function objectify (array) {
